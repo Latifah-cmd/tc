@@ -13,7 +13,7 @@ class ForgotPasswordPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
            const Text(
-              'Forgot Your Password?',
+              'Forgot Your Pasword?',
               style: TextStyle(fontSize: 24),
             ),
            const SizedBox(height: 20),
