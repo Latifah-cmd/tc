@@ -7,6 +7,7 @@ class LoginPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
+        centerTitle: true,
         title: Text('Login Page'),
       ),
       body: Center(

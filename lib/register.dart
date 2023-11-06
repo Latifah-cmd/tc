@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
@@ -32,6 +31,7 @@ class _RegisterPageState extends State<RegisterPage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
+        centerTitle: true,
         title: Text('Register'),
       ),
       body: Padding(
